@@ -1,4 +1,5 @@
 @import url(reset.css);
+@import url(media.css);
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 * {
@@ -457,4 +458,24 @@ li::marker{
 .botao__secao__3:hover {
     background: var(--c);
     cursor: pointer;
+}
+
+@media screen and (max-width: 430px){
+    .cabecalho {
+        margin-top: 0;
+    }
+
+    .cabecalho__itens__link {
+        padding: 0;
+    }
+
+    .img__rapaz__halter{
+        height: 10vh;
+        width: 10vh;
+    }
+
+    body {
+        margin: 0;
+    }
+
 }
