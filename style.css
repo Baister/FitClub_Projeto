@@ -443,3 +443,18 @@ li::marker{
     line-height: 1.5rem;
 }
 
+.botao__secao__3 {
+    background:var(--d);
+    padding: 0.6rem 1.5rem;
+    color: var(--b);
+
+    border-radius: 5px;
+    border-color: var(--d);
+    box-shadow: none;
+    margin-right: 60%;
+}
+
+.botao__secao__3:hover {
+    background: var(--c);
+    cursor: pointer;
+}
