@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FitClub</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header class="cabecalho">
@@ -164,12 +165,23 @@
         </section>
 
         <section class="conteudo__avaliacao">
-            <p class="conteudo__avaliacao__titulo">MEMBER REVIEW</p>
+            <p id="conteudo__avaliacao__titulo">MEMBER REVIEW</p>
             <p class='conteudo__avaliacao__texto'>What truly sets this gym apart is their expert team of trainers. The trainers are knowledgeable, approachable, and genuinely invested in helping members achieve their fitness goals. They take the time to understand individual needs and create personalized workout plans, ensuring maximum results and safety.</p>
-            <!--ESTRELAS-->
             <div>
-                <p>Jane Cooper</p>
-                <p>Software Developer</p>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+            </div>
+            <div class="conteudo__avaliacao__div">
+                <div class="circle">
+                    <img src="./assets/member.jpg" alt="Comentário de um membro" class="imagem__avaliacao">
+                  </div>
+                <span>
+                    <p id="usuario__avaliacao">Jane Cooper</p>
+                    <p class='conteudo__avaliacao__texto'>Software Developer</p>
+                </span>
             </div>
         </section>
     </main>
