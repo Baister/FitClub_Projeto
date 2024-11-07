@@ -323,7 +323,7 @@ li::marker{
     font-family: 'Poppins', sans-serif;
 }
 
-.botao__quartenario {
+.botao__quartenario:hover {
     cursor: pointer;
     background: var(--e);
 }
