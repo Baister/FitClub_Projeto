@@ -1,6 +1,10 @@
 @import url(reset.css);
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
+* {
+    scrollbar-width: thin;
+    scrollbar-color: rgb(98, 98, 111) rgb(64, 60, 52);
+}
 :root{
     --a:#d1d5db;
     --b:#ffffff;
@@ -30,6 +34,10 @@
     text-align: center;
 }
 
+.cabecalho__itens__link:hover {
+    color: var(--d);
+}
+
 .botao {
     background:var(--d);
     padding: 0.6rem 1.5rem;
@@ -50,6 +58,7 @@ body {
     background-repeat: no-repeat;
     margin: 0 20rem ;
     font-family: 'Poppins', sans-serif;
+
 }
 
 .conteudo__principal {
@@ -216,3 +225,93 @@ h2 {
     width: 9vh;
 
 }
+
+
+.conteudo__quartenario__secao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+
+    margin: 6rem 0 2rem 0;
+
+    box-sizing: border-box;
+}
+
+#conteudo__quartenario__subtitulo {
+    font-weight: 500;
+    color: var(--b);
+}
+
+.conteudo__quartenario__cards {
+    color: var(--b);
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.quartenario__cards {
+    background: var(--e);
+    padding: 1.5rem;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.quartenario__cards__titulo {
+    font-weight: 600;
+}
+
+.quartenario__cards__valor {
+    font-size: 1.5rem;
+    font-weight: 700;
+
+    padding-bottom: 1rem;
+    border-bottom: 2px solid white;
+}
+
+.quartenario__cards__lista {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    list-style-type: disc;
+    
+    margin-left: 1rem;
+    text-align: left;
+    
+}
+
+li::marker{
+    color: var(--d);
+}
+
+.quartenario__cards:hover{
+    border: 2px solid var(--d);
+}
+
+.botao__quartenario {
+    width: 100%;
+    background: transparent;
+    
+    border-color: var(--d);
+    padding: 0.5rem 1rem;
+
+    margin-top: 2rem;
+    border-radius: 5px;
+    color: var(--d);
+    font-family: 'Poppins', sans-serif;
+}
+
+.botao__quartenario {
+    cursor: pointer;
+    background: var(--e);
+}
+
+  
