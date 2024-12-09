@@ -1,6 +1,6 @@
 # Projeto: FitClub
 Projeto realizado durante a entrevista de um teste front-end.
-Link do projeto: https://fit-club-projeto.vercel.app/
+Link do projeto: https://fit-club-projeto.vercel.app/   https://baister.github.io/FitClub_Projeto/
 ## Sobre o projeto:
 O projeto foi feito para ser realizado como um teste de meus conhecimentos. Utilizei as fontes e as imagens que foram disponibilizadas para a realização, porém acrescentei mais algumas para questão de estilização, pois vi necessidade.
 Durante o projeto deixaram claro que não é permitido utilizar qualquer IA, apenas fóruns.
